@@ -1,0 +1,20 @@
+{
+  "name": "tutorial-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12"
+  },
+  "scripts": {
+    "build": "babel src --out-dir public -w",
+    "serve": "lite-server --baseDir public",
+    "start": "npm run serve & npm run build"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
